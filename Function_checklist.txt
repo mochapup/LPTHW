@@ -1,3 +1,4 @@
+'''CHECK LIST'''
 Did you start your function definition with def?
 Does your function name have only characters and _ (underscore) characters?
 Did you put an open parenthesis ( right after the function name?
