@@ -30,3 +30,7 @@ print("Here is a puzzle")
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
 print("That becomes: ", what, "Can you do it by hand?")
+
+# Study Drill 2: Rewrite "what" as a normal formula
+formula = 35 + (74 - (180 * (50 / 2)))
+print("The formula output of the puzzle is", formula)
