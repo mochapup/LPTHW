@@ -1,0 +1,43 @@
+*** What do you know so far? ***
+
+print() : The print function. Used to output text the console.
+' : Single quote. Used to encapsulate a single line string.
+" : Double quote. Used to encapsulate a single line string.
+''' : Triple quote. Used to encapsulate a multi-line string.
+# : Hash / Octothorpe / Pound sign. Used to denote a comment.
+% : Modulo sign / formatter. Used as modulo in mathematical operations (returns reminder after division).
+    Also used as a formatter when using format strings (only used in python 2 lessons).
+* : Asterisk. Used for multiplication during mathematical operations. Also used when using *args in functions
+    where you are not sure how many arguments you are passing to the function. Specially, the * allows you an arbitrary number of arguments.
+/ : Forward slash. Used as a division sign when performing mathematical operations.
++ : Plus sign. Used as a addition sign during mathematical operations. Also used in loops as a iterator.
+    Also used in shorthand such has += meaning 'equal to plus' e.g. a += b which can be written a = a + b.
+= : Equal sign. Used to create variables or to set one value to equal another. Can be paired with other operators like +
+> : Greater-than sign. Returns TURE if value on the left of the sign in greater than that on the right, else returns FALSE.
+< : Less-than sign. Returns TRUE if the value on the left of the sign is less than that on the right, else returns FALSE.
+>= : Greater than or equal to sign. Return TRUE if value on the left of the sign is greater than or equal to the right, Else return FALSE
+<= : Less than or equal to sign. Return TRUE if value on the left is less than or equal to that on the right, else returns FALSE.
+=== : Comparison operator. Returns TRUE if the value on the left is exactly the same value on the right. Else returns FALSE.
+    Can be used to compare strings, boolean operators, integers etc. Concerned with 'equality' and not 'sameness'. Concomitantly, distinct from is
+    which checks if the values are literally referring to the same instance of a value.
+f"" : f string. Python 3.6 syntax for handling format strings. allows the inclusion of variables via the {} modifiers.
+{} : Curly Brackets (Curly boys). Used in the positional formatting when using format strings.
+.format() : Python 3 replacement for the % used in the format strings. Has form '{} {}'.format('one', 'two').
+end='' : Python 3 syntax for ending a line with a space rather than a linebreak.
+join() : The method join() returns a string in which the elements passed to the string have been joined by a str operator
+import : Similar to 'from' but is the meat of the import statement. Brings modules into you file.
+argv : Accepts a list of command line arguments passed to it when running a script. Must be imported from the sys module.
+open() : Opens a file and returns the corresponding file object(Raw binary, buffered binary, or text)
+read() : Reads the contents of a file object. Can read specific lines and whole files.
+write() : Writes contents of a string to a file.
+close() : Closes and  open object file. Important to call this method and not leave it to the interpretor
+          or you risk unusual behavior.
+os.path : Module containing useful functions regarding pathnames.
+exists : Module/Function that is part of the os.path module which returns true if path given refers to an existing path or an open file descriptor.
+; : Semi-colon. Allows for 'compound statements'. Allows multiple statements on the same line.
+def : keyword meaning 'function definition'  and used to create user define function objects.
+      Put simply, this allows you to create you own functions.
+*args : Allows a function to accept an arbitrary argument list. Used for when you don't know how many arguments are going to be passed to a function.
+seek() : The method seek() seeks a file's current position at the offset. Default position is 0 so starts at start of the file.
+readline() : Reads a single line from a file. A newline character is left at the end of the string so will automatically read the next line until
+              the end of the each time is called.
