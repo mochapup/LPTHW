@@ -39,5 +39,6 @@ def : keyword meaning 'function definition'  and used to create user define func
       Put simply, this allows you to create you own functions.
 *args : Allows a function to accept an arbitrary argument list. Used for when you don't know how many arguments are going to be passed to a function.
 seek() : The method seek() seeks a file's current position at the offset. Default position is 0 so starts at start of the file.
+the end of the each time is called.
 readline() : Reads a single line from a file. A newline character is left at the end of the string so will automatically read the next line until
-              the end of the each time is called.
+""" : Documentation Comments. If help function is requested through terminal for a fucntion, strings inside these quotes will be printed
