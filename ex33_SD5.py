@@ -8,11 +8,11 @@ def main():
     numbers = []
     var1 = 6
     var2 = 2
-    for j in range(6):
+    for j in range(var1):
         print(f"At the top i is {i}")
         numbers.append(i)
 
-        i += var
+        i += var2
         print("Numbers now: ", numbers)
         print(f"At the bottom i is {i}")
 
