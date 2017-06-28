@@ -1,0 +1,26 @@
+Game plan for text based game similar to exercise 36
+
+About:
+  This game will have you take your dog to the park.
+  The park has many things to do and each thing requires a amount of energy.
+  Once your dog's energy is decreased enough, you can take him home.
+
+Tasks:
+  * Write an introduction
+  * Create things to do at the dog park
+  * Create a function to deplete your dogs energy through activities
+  * Create areas in the park where one can do different tasks
+
+Areas:
+  Entrance - exit is here, walking around the park is here, access to the big lawn is here, access to woods is here.
+  Woods - chase squirrels is here, dig holes is here, access to the big lawn is here, access to the entrance is here.
+  Big lawn - Play fetch is here, walk around run with other dogs is here, access to the woods is here, access to the entrance is here.
+
+Activities:
+  Exit - Exits the park, this totals the amount of energy left
+  Walking around the park- takes a walk on a trail around the park. costs 20 energy
+  Chase squirrels - Your dog chases squirrels up trees and in bushes. costs 40 energy
+  Dig holes - Your dog digs holes in of various sizes. cost 30 energy
+  Play Fetch - You play fetch with your dog. Costs 50 energy
+  Run with dogs - Your dog runs around with other dogs. Costs 40 energy
+  
