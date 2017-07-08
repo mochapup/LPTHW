@@ -1,0 +1,56 @@
+Exercise 37: Symbol Review - Keywords
+
+Keywords:
+  and - all conditions in a Boolean function must be true to be true
+  as - assignment operator. Used with 'with' keyword as context manager: /with thing as t/, import statements: /import foo as bar/,exceptions: /catch exception as exc/
+  assert - test condition, if condition is false raise error:
+  break - statement breaks out of the nearest enclosing for or while loop. Performs differently depending on loop.
+  class - a user defined prototype for an object that defines a set of attributes that characterize any object of the class. Data members, methods accessed through dot notation. Class == object
+  continue - returns to the beginning of loop if condition is met. rejects current iteration of loop. (Skip this if condition is met)
+  def - defines a function and its subsequent methods
+  del - deletion of a name unbinds that name from the local and global namespace. deletion of target list reclusively deletes left to right
+  elif - follows the 'if' and proceeds the 'else' of conditional if-statements
+  else - follows the 'if' and 'elif' of if-statements is needed to close if-statements
+  except - used in Try/Except blocks. If try conditions contains error, the exception raises a custom error. can be modified for specific errors.
+  exec - executes a dynamic program or string. Can be combined with input to execute input programs or strings.
+  finally - used in Try/Except blocks. will be executed no matter if exception is raised or not.
+  for - loops over a predefined collection of items
+  from - import specific parts of a module
+  global - sets variable defined in score script the ability to be called in functions
+  if - sets a if-statement condition. must contain and 'else' condition to end.
+  import - imports modules into program.
+  in - used in for-loops: / for <var> in <sequence>: /
+  is - used to test object identity. / (a = 1 is b = 1) = false, (a = 1 is a = b) = true/
+  lambda - creates a function in a program. / ..> f = lambda x: x + 1..> f(3)..> 4/ AKA 'Anonymous Function'.
+  not - inverse logic function, not true = false
+  or - one condition in a logic function must be true to be true, True or False = True
+  pass - a place holder in empty code block. avoids error for empty code blocks.
+  print - prints defined object, variable, or string.
+  raise - raises an error if condition is met
+  return - exits a function and gives value back to caller
+  try - starts a Try/Except block, must have except statement to raise error is try statement is True or False
+  while - Used to assign with as-statements to reassign variables or function names. Also used to replace try functions
+  yield - used in generators to generate list of outputs once, does not return outputs to memory. / for i in thing: .. >    yield(thing) / used for efficiency
+
+Data Types:
+  True - True boolean value / >a = 3.. >a == 3..True /
+  False - False boolean value / >a = 3.. >a == 5..False /
+  None - represents 'none' or 'no value' / a = none.. # a value is set to none, or no value./
+  bytes - turns string into a sequence of octets, used to represent low-level binary data like structures / >>>b'\uFEFF'.encode'('UTF-8')..'€'/
+  strings - stores textual information / print("This is a string")..This is a string /
+  numbers - stores whole number integers / 5, 6, 13, 134
+  floats - stores decimal numbers / 3.0, 4.5, 18.50, 0.9999997 /
+  lists - stores a list of things / list = [0, 1, 2, 3] /
+  dicts - dictionaries, stores key = value mapping if things / dict = {'a':0, 'b':1, 'c':2}
+
+String Escape Sequences:
+  \\ - Backslash / print("I am \\ a \\ backslash")..I am \ a \ backslash /
+  \' - Single Quote / print('I am using a \' single quote').. I am using a ' single quote'/
+  \" - Double Quote / print("I am using a \" double quote").. I am using a "double quote"/
+  \a - ASCII Bell (BEL) Generates an audio bell.
+  \b - ASCII Backspace (BS) Generates a backspace
+  \f - Formfeed, used to move the following string to the next line at the same margin it ended at previous line.
+  \n - Newline, used to ad a new line or space  between lines in string
+  \r - Carriage, moves cursor back to start of string.
+  \t - Tab, Tabs string at where called.
+  \v - Vertical Tab, adds vertical tab where called.
